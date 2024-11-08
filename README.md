@@ -34,4 +34,27 @@ Social_Isolation_Rating: A self-reported rating (1-5) on how isolated they feel.
 
 Satisfaction_with_Remote_Work: How satisfied they are with remote work arrangements (Satisfied, Neutral, Unsatisfied).
 
+## The Objective:
+#### 1. Connect and Transform the Raw Data
+Using Query Editing Tools in **PowerBI** Transform the raw data in the back-end, and organized them before loading data into front-end of PowerBI
+
+#### 2. Create Calculated Columns & Measures with DAX
+Use calculted columns for filtering.
+Use measures for aggreating values.
+Use Expllicit measures.(Explicit measures can be referenced anywheere, and nested within ohter measures)
+Use fully-qualified column references in measures(This makes DAX more readable, and differentiates column references from measure references)
+
+**Note:** 
+Here We have only one Table(one csv file) 
+so No need to build a relational data model 
+No need to worry about the relationship between tables
+
+#### 3. Design an Interactive Dashboard to Visualize the Data
+Use Matrix, KPI, Cards, Bar Charts, Pie Charts, Donut Charts,... etc. Filtering, formating, and design to get better view for End User. Also use Interractions to customize how filters applied to one visual impact other visuals on the page Use Bookmarks capture the current state of a page, and allow users to return to that state using report actions.
+**Target:** Easy to understand for End-User
+
+## Conclusion:
+A well-designed dashboard should serve a distinct purpose for a distinct audience, use clear and effective metrics and visuals, and provide a simple, intutive user experience.
+
+[Check Dashboard](https://github.com/SudesnaDebnath/Remote-Work-Mental-Health/blob/main/Remote%20Work%20%26%20Mental%20Health%20Report.pbix)
 
